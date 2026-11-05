@@ -1,8 +1,8 @@
 {
   "name": "palo-alto",
   "version": "0.1.0",
-  "description": "All Palo Alto Networks skills by Cyberseren",
-  "author": { "name": "Cyberseren", "url": "https://cyberseren.com" },
+  "description": "All Palo Alto Networks skills by CyberSeren",
+  "author": { "name": "CyberSeren", "url": "https://cyberseren.com" },
   "homepage": "https://github.com/cyberseren/cyberseren-skills",
   "repository": "https://github.com/cyberseren/cyberseren-skills",
   "license": "Apache-2.0",

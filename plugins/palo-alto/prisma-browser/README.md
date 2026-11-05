@@ -1,6 +1,6 @@
 # prisma-browser
 
-Skills for Prisma Browser in Strata Cloud Manager, by Cyberseren.
+Skills for Prisma Browser in Strata Cloud Manager, by CyberSeren.
 
 | Skill | What it does |
 |-------|--------------|

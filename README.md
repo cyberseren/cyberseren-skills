@@ -1,12 +1,12 @@
-# Cyberseren Skills
+# CyberSeren Skills
 
-Agent skills by [Cyberseren](https://cyberseren.com).
+Agent skills by [CyberSeren](https://cyberseren.com).
 
 ## How it works
 
-Cyberseren publishes agent skills for the security products we deploy for our customers and for Serenity, our dashboard. Each vendor has its own plugin, and each of its products has a plugin inside it. You install a whole vendor, one product or one skill.
+CyberSeren publishes agent skills for the security products we deploy for our customers and for Serenity, our dashboard. Each vendor has its own plugin, and each of its products has a plugin inside it. You install a whole vendor, one product or one skill.
 
-Today, Cyberseren is an official Palo Alto Networks partner, so the first skills cover Palo Alto Networks products. Skills for Serenity are coming next.
+Today, CyberSeren is an official Palo Alto Networks partner, so the first skills cover Palo Alto Networks products. Skills for Serenity are coming next.
 
 ## Plugins
 
@@ -14,7 +14,7 @@ Today, Cyberseren is an official Palo Alto Networks partner, so the first skills
 |--------|----------|
 | `palo-alto` | Bundle: installs every Palo Alto Networks plugin below |
 | `prisma-browser` | Prisma Browser: create Access & Data Control rules in Strata Cloud Manager |
-| `serenity` | Coming soon: skills for Serenity, the Cyberseren dashboard |
+| `serenity` | Coming soon: skills for Serenity, the CyberSeren dashboard |
 
 ## Install
 
