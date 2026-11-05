@@ -1,0 +1,17 @@
+{
+  "name": "cyberseren",
+  "owner": { "name": "Cyberseren", "url": "https://cyberseren.com" },
+  "description": "Agent skills by Cyberseren",
+  "plugins": [
+    {
+      "name": "palo-alto",
+      "source": "./plugins/palo-alto",
+      "description": "All Palo Alto Networks skills by Cyberseren"
+    },
+    {
+      "name": "prisma-browser",
+      "source": "./plugins/palo-alto/prisma-browser",
+      "description": "Prisma Browser skills: Access & Data Control rules in Strata Cloud Manager"
+    }
+  ]
+}
