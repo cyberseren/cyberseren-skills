@@ -23,7 +23,7 @@ Aujourd'hui, CyberSeren est partenaire officiel de Palo Alto Networks. Les premi
   - `palo-alto` : tous les skills Palo Alto Networks
     - `prisma-browser` : tous les skills Prisma Browser
       - `prisma-browser-access-data-control-rule` : créer des règles Access & Data Control dans Strata Cloud Manager
-  - `serenity` : à venir, skills pour Serenity, le dashboard CyberSeren
+  - `serenity` : en cours de développement, skills pour Serenity, le dashboard CyberSeren
 
 ## Installation
 
