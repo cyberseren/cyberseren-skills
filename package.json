@@ -1,0 +1,11 @@
+{
+  "name": "@cyberseren/skills",
+  "version": "0.1.0",
+  "description": "Agent skills by CyberSeren for Palo Alto Networks products",
+  "license": "Apache-2.0",
+  "author": "CyberSeren (https://cyberseren.com)",
+  "homepage": "https://github.com/cyberseren/cyberseren-skills",
+  "repository": { "type": "git", "url": "git+https://github.com/cyberseren/cyberseren-skills.git" },
+  "keywords": ["agent-skills", "claude-code", "codex", "cursor", "github-copilot", "palo-alto-networks", "prisma-browser"],
+  "files": ["plugins/", ".claude-plugin/", "README.md", "README.fr.md", "LICENSE"]
+}
