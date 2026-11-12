@@ -39,16 +39,16 @@ Install a whole vendor, one product or one skill. Pick one install method per ag
 ### GitHub Copilot CLI
 
     copilot plugin marketplace add cyberseren/cyberseren-skills
-    copilot plugin install palo-alto@cyberseren
+    copilot plugin install prisma-browser@cyberseren
 
 ### Codex
 
     codex plugin marketplace add cyberseren/cyberseren-skills
-    codex plugin add palo-alto@cyberseren
+    codex plugin add prisma-browser@cyberseren
 
 ### Cursor
 
-Install `palo-alto` or `prisma-browser` from the Cursor Marketplace.
+Install `prisma-browser` from the Cursor Marketplace.
 
 ### VS Code
 

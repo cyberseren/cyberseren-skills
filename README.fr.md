@@ -39,16 +39,16 @@ Installez tout un éditeur, un seul produit ou un seul skill. Choisissez une seu
 ### GitHub Copilot CLI
 
     copilot plugin marketplace add cyberseren/cyberseren-skills
-    copilot plugin install palo-alto@cyberseren
+    copilot plugin install prisma-browser@cyberseren
 
 ### Codex
 
     codex plugin marketplace add cyberseren/cyberseren-skills
-    codex plugin add palo-alto@cyberseren
+    codex plugin add prisma-browser@cyberseren
 
 ### Cursor
 
-Installez `palo-alto` ou `prisma-browser` depuis la Cursor Marketplace.
+Installez `prisma-browser` depuis la Cursor Marketplace.
 
 ### VS Code
 
