@@ -19,12 +19,11 @@ Aujourd'hui, CyberSeren est partenaire officiel de Palo Alto Networks. Les premi
 
 ## Plugins
 
-**Palo Alto Networks**
-- `palo-alto` : tous les skills Palo Alto Networks ci-dessous
-  - `prisma-browser` : créer des règles Access & Data Control dans Strata Cloud Manager
-
-**CyberSeren**
-- `serenity` : à venir, skills pour Serenity, le dashboard CyberSeren
+- `all` : tous les skills CyberSeren
+  - `palo-alto` : tous les skills Palo Alto Networks
+    - `prisma-browser` : tous les skills Prisma Browser
+      - `prisma-browser-access-data-control-rule` : créer des règles Access & Data Control dans Strata Cloud Manager
+  - `serenity` : à venir, skills pour Serenity, le dashboard CyberSeren
 
 ## Installation
 
@@ -33,8 +32,10 @@ Installez tout un éditeur, un seul produit ou un seul skill. Choisissez une seu
 ### Claude Code
 
     /plugin marketplace add cyberseren/cyberseren-skills
-    /plugin install palo-alto@cyberseren        # tous les skills Palo Alto Networks
-    /plugin install prisma-browser@cyberseren   # skills Prisma Browser seulement
+    /plugin install all@cyberseren                                       # tous les skills CyberSeren
+    /plugin install palo-alto@cyberseren                                 # tous les skills Palo Alto Networks
+    /plugin install prisma-browser@cyberseren                            # tous les skills Prisma Browser
+    /plugin install prisma-browser-access-data-control-rule@cyberseren   # un seul skill
 
 ### GitHub Copilot CLI
 

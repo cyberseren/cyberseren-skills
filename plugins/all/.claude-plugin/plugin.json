@@ -1,0 +1,11 @@
+{
+  "name": "all",
+  "version": "0.1.0",
+  "description": "Every CyberSeren skill",
+  "author": { "name": "CyberSeren", "url": "https://cyberseren.com" },
+  "homepage": "https://github.com/cyberseren/cyberseren-skills",
+  "repository": "https://github.com/cyberseren/cyberseren-skills",
+  "license": "Apache-2.0",
+  "keywords": ["cyberseren", "palo-alto-networks", "security"],
+  "dependencies": ["palo-alto"]
+}
