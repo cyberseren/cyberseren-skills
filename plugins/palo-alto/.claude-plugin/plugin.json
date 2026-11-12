@@ -6,6 +6,5 @@
   "homepage": "https://github.com/cyberseren/cyberseren-skills",
   "repository": "https://github.com/cyberseren/cyberseren-skills",
   "license": "Apache-2.0",
-  "keywords": ["palo-alto-networks", "prisma-browser", "strata-cloud-manager", "security"],
-  "dependencies": ["prisma-browser"]
+  "keywords": ["palo-alto-networks", "prisma-browser", "strata-cloud-manager", "security"]
 }
