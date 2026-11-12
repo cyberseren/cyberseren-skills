@@ -1,6 +1,11 @@
 ---
 name: prisma-browser-access-data-control-rule
 description: Creates, clones or edits a Prisma Browser Access & Data Control rule in Strata Cloud Manager with the user. The user validates a rule card first, the agent fills the console through a browser MCP server, the user saves and publishes. Use when the user asks to create, clone or edit an Access & Data Control rule for Prisma Browser.
+license: Apache-2.0
+compatibility: Requires a browser MCP server (for example Chrome DevTools MCP), a model with tool calling, and a Strata Cloud Manager account with rights on Prisma Browser policies.
+metadata:
+  author: cyberseren
+  version: "0.1.0"
 ---
 
 # Prisma Browser Access & Data Control rule
