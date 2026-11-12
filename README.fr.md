@@ -1,6 +1,15 @@
-# CyberSeren Skills
+<p align="center">
+  <a href="https://cyberseren.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+      <img src="assets/logo-light.png" alt="CyberSeren" width="240">
+    </picture>
+  </a>
+</p>
 
-Skills d'agent IA par [CyberSeren](https://cyberseren.com).
+<h1 align="center">CyberSeren Skills</h1>
+
+<p align="center">Skills d'agent IA par <a href="https://cyberseren.com">CyberSeren</a>.</p>
 
 ## Fonctionnement
 
