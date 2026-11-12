@@ -19,11 +19,12 @@ Aujourd'hui, CyberSeren est partenaire officiel de Palo Alto Networks. Les premi
 
 ## Plugins
 
-| Plugin | Contenu |
-|--------|---------|
-| `palo-alto` | Bundle : installe tous les plugins Palo Alto Networks ci-dessous |
-| `prisma-browser` | Prisma Browser : créer des règles Access & Data Control dans Strata Cloud Manager |
-| `serenity` | À venir : skills pour Serenity, le dashboard CyberSeren |
+**Palo Alto Networks**
+- `palo-alto` : tous les skills Palo Alto Networks ci-dessous
+  - `prisma-browser` : créer des règles Access & Data Control dans Strata Cloud Manager
+
+**CyberSeren**
+- `serenity` : à venir, skills pour Serenity, le dashboard CyberSeren
 
 ## Installation
 

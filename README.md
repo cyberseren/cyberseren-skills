@@ -19,11 +19,12 @@ Today, CyberSeren is an official Palo Alto Networks partner, so the first skills
 
 ## Plugins
 
-| Plugin | Contents |
-|--------|----------|
-| `palo-alto` | Bundle: installs every Palo Alto Networks plugin below |
-| `prisma-browser` | Prisma Browser: create Access & Data Control rules in Strata Cloud Manager |
-| `serenity` | Coming soon: skills for Serenity, the CyberSeren dashboard |
+**Palo Alto Networks**
+- `palo-alto`: all Palo Alto Networks skills below
+  - `prisma-browser`: create Access & Data Control rules in Strata Cloud Manager
+
+**CyberSeren**
+- `serenity`: coming soon, skills for Serenity, the CyberSeren dashboard
 
 ## Install
 
