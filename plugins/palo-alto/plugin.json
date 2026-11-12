@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "palo-alto",
+  "version": "0.1.0",
+  "description": "All Palo Alto Networks skills by CyberSeren",
+  "author": { "name": "CyberSeren", "url": "https://cyberseren.com" },
+  "homepage": "https://github.com/cyberseren/cyberseren-skills",
+  "repository": "https://github.com/cyberseren/cyberseren-skills",
+  "license": "Apache-2.0",
+  "keywords": ["palo-alto-networks", "prisma-browser", "strata-cloud-manager", "security"]
+}

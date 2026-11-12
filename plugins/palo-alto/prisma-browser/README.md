@@ -8,4 +8,4 @@ Skills for Prisma Browser in Strata Cloud Manager, by CyberSeren.
 
 Requirements: a browser MCP server (for example Chrome DevTools MCP) and an account on your Strata Cloud Manager tenant.
 
-Install: `/plugin install prisma-browser@cyberseren`.
+Install: `/plugin install prisma-browser@cyberseren` in Claude Code. For other agents, see the main README.

@@ -1,0 +1,18 @@
+{
+  "name": "cyberseren",
+  "interface": { "displayName": "CyberSeren" },
+  "plugins": [
+    {
+      "name": "palo-alto",
+      "source": { "source": "local", "path": "./plugins/palo-alto" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Security"
+    },
+    {
+      "name": "prisma-browser",
+      "source": { "source": "local", "path": "./plugins/palo-alto/prisma-browser" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Security"
+    }
+  ]
+}
