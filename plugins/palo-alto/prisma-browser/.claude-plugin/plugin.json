@@ -1,0 +1,10 @@
+{
+  "name": "prisma-browser",
+  "version": "0.1.0",
+  "description": "Prisma Browser skills: Access & Data Control rules in Strata Cloud Manager",
+  "author": { "name": "CyberSeren", "url": "https://cyberseren.com" },
+  "homepage": "https://github.com/cyberseren/cyberseren-skills",
+  "repository": "https://github.com/cyberseren/cyberseren-skills",
+  "license": "Apache-2.0",
+  "keywords": ["prisma-browser", "strata-cloud-manager", "access-data-control", "palo-alto-networks"]
+}
