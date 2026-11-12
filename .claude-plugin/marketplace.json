@@ -4,6 +4,11 @@
   "description": "Agent skills by CyberSeren",
   "plugins": [
     {
+      "name": "all",
+      "source": "./plugins/all",
+      "description": "Every CyberSeren skill"
+    },
+    {
       "name": "palo-alto",
       "source": "./plugins/palo-alto",
       "description": "All Palo Alto Networks skills by CyberSeren"
@@ -12,6 +17,17 @@
       "name": "prisma-browser",
       "source": "./plugins/palo-alto/prisma-browser",
       "description": "Prisma Browser skills: Access & Data Control rules in Strata Cloud Manager"
+    },
+    {
+      "name": "prisma-browser-access-data-control-rule",
+      "source": "./plugins/palo-alto/prisma-browser/skills/prisma-browser-access-data-control-rule",
+      "description": "Create, clone or edit a Prisma Browser Access & Data Control rule in Strata Cloud Manager",
+      "version": "0.1.0",
+      "author": { "name": "CyberSeren", "url": "https://cyberseren.com" },
+      "homepage": "https://github.com/cyberseren/cyberseren-skills",
+      "repository": "https://github.com/cyberseren/cyberseren-skills",
+      "license": "Apache-2.0",
+      "keywords": ["prisma-browser", "strata-cloud-manager", "access-data-control", "palo-alto-networks"]
     }
   ]
 }
