@@ -5,7 +5,7 @@ license: Apache-2.0
 compatibility: Requires a browser MCP server (for example Chrome DevTools MCP), a model with tool calling, and a Strata Cloud Manager account with rights on Prisma Browser policies.
 metadata:
   author: cyberseren
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # Prisma Browser Browser Security rule
@@ -28,11 +28,11 @@ Ask the user for their naming convention. Default proposal:
 
 ## How rules apply
 
-- Prisma Browser reads rules from top to bottom. The first rule whose scope matches the user applies.
-- The last rule, **Browser Security - baseline**, applies to every user that no other rule targets.
+- Prisma Browser applies every active rule whose scope matches the user, not only the first one.
+- For each control, the highest rule (smallest **Pri**) that sets it gives the value. A control left at **Not set** comes from the next rule that sets it, down to **Browser Security - baseline**.
+- A rule whose scope does not fully match is ignored for all its controls.
+- A new rule holds only the controls that change for its population. Do not repeat a control that a lower rule already sets to the same value.
 - A rule for one population goes in a section above the baseline.
-- Put all the controls of one population in one rule. A second rule for the same users never matches.
-- A control the rule does not set stays at **Not set**.
 
 ## Controls
 
@@ -48,6 +48,8 @@ Each control is a card: **+ Set value...**, choose the value, then **Set**. Comm
 | Browser Hardening | **Developer Tools**, **Remote Debugging** | **Allow**, **Block** |
 | Passwords and Autofill | **Password Manager** | **Enable** with **Multi-factor authentication** and **Require MFA again after**, or **Disable** with **Disable export** |
 | Passwords and Autofill | **Mobile Password Saving** | **Allow**, **Block** |
+| Network Protection | **Pages with SSL Errors** | **Allow**, **Block** (removes the "Proceed to [FQDN] (unsafe)" link) |
+| Extensions | **Allowed or Blocked Extensions** | **Allow all**, **Block all**, **Allow specific extensions by ID**, or **Block specific extensions by ID or Risk**: **Add extension**, and **Block extensions by risk level** (**Malicious**, **High risk**, **Medium**, set with **−** and **+**) |
 
 For any other control, read its card in the console and show its values in the rule card.
 
@@ -77,12 +79,14 @@ Playwright and Selenium drive the browser through remote debugging. When the rul
 
 - Open **Configuration** > **Policy** > **Rules**, then the **Browser Security** tab. A direct URL to the tab can fail: go through the Rules page.
 - Text fields (name, description) need real keystrokes. A value set by script is ignored.
+- Close the user and group list with a click outside it. `Tab` can leave it open.
+- In a long dialog, scroll to **Set** before you click it. **Set** is redrawn after a value is chosen: take a new snapshot before the click.
 
 ## Steps
 
 1. **Rule card**, shown to the user and validated: name, rule section, scope (users and groups), and each control with its value, grouped by family.
 2. **Section**: if the section does not exist, **Create** > **New section**, type the name, click the check mark. It goes above the baseline.
-3. **Input**: **Create new rule** on the section row. Fill **Name**, **Description**, then **Scope** > **Users/User groups**. Set each control of the card in **Browser Security controls**. Take a screenshot at the end: the **Browser security controls** column summarizes the rule.
+3. **Input**: on the section row, open the menu > **Create rule at top of section** (or **+** > **Create rule in Priority #N**). Fill **Name**, **Description**, then **Next: Scope** > **Users/User groups**. Set each control of the card in **Browser Security controls**. Take a screenshot at the end: the caption under the **Browser Security controls** step, on the left, lists the controls set.
 4. **Save**: the user reviews and clicks **Save**.
 5. **Publish**: propose a version description (300 characters max), for example `feat(prod): add rule prod-browser_security`. The user clicks **Publish**.
 6. **Test**: Prisma Browser receives a published version after a few minutes. On a test device of a targeted user:
