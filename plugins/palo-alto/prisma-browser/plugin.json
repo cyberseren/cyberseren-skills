@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "prisma-browser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prisma Browser skills: Access & Data Control, Browser Security and Browser Customization rules in Strata Cloud Manager",
   "author": { "name": "CyberSeren", "url": "https://cyberseren.com" },
   "homepage": "https://github.com/cyberseren/cyberseren-skills",
