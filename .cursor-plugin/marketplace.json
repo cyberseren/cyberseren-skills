@@ -6,7 +6,7 @@
     {
       "name": "prisma-browser",
       "source": "plugins/palo-alto/prisma-browser",
-      "description": "Prisma Browser skills: Access & Data Control rules in Strata Cloud Manager"
+      "description": "Prisma Browser skills: Access & Data Control, Browser Security and Browser Customization rules in Strata Cloud Manager"
     }
   ]
 }
